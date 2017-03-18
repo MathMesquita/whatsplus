@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Whats+",
+  "version": "0.1",
+  "content_scripts":[
+    {
+      "matches":["https://web.whatsapp.com/"],
+      "js":["src/fixedTab.js","src/nsfw.js","src/hlMessages.js"]
+    }
+  ]
+}
