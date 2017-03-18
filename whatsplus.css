@@ -1,0 +1,34 @@
+.chat {
+  position: relative;
+  width: 100%;
+}
+
+.chat-body {
+  height: 61px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.chat-cell {
+  display: flex;
+  width: 74px;
+  height: 61px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-avatar {
+  display: inline-block;
+  width: 74px;
+  height: 60px;
+}
+
+.whatsplus-button {
+  width: 100%;
+  height: 61px;
+  font-size: 100%;
+}
+
+.icon-wpplus {
+  width: 24px;
+  height: 24px;
+}
